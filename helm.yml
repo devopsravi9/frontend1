@@ -4,6 +4,8 @@ ingress:
 service:
   port: 80
   type: LoadBalancer
+configMap:
+  enabled: "false"
 
 
 
